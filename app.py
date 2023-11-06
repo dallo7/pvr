@@ -13,7 +13,7 @@ def b64_image(image_filename):
 
 img = "pvs.png"
 
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ], title='Rhys')
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.QUARTZ], title='masonrhys')
 
 server = app.server
 
